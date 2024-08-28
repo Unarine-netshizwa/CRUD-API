@@ -6,6 +6,7 @@ const db = require('./db'),
 userRoutes  = require('./controllers/usersController'),
     employeeRoutes = require('./controllers/employeeController')
 
+
 //middleware
     app.use(bodyparser.json()) 
     app.use('/api/users', userRoutes)
